@@ -1,0 +1,23 @@
+/**/
+.rectangulo {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    max-width: 1000px; /* Puedes ajustar este valor según tus necesidades */
+    height: 500px;
+}
+
+.espacio{
+
+    margin-left: 20px;
+}
+.titulo{
+
+    text-align: center;
+}
+.codigo-postal {
+    max-width: 200px; /* Puedes ajustar este valor según tus necesidades */
+}
+.margin{
+    margin-top: 20px; 
+}

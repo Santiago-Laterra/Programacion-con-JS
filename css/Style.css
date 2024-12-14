@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+    background-color: rgb(255, 255, 255);
+
+}
+.navbar-custom {
+    font-size: 19px; /* Tamaño de la fuente */
+    font-family: 'Arial', sans-serif; /* Tipografía */
+}
+.navbar-menu{
+    font-size: 15px; /* Tamaño de la fuente */
+    font-family: 'Arial', sans-serif; /* Tipografía */
+
+}
+.navbar-custom .nav-link {
+    padding: 10px 15px; /* Espaciado alrededor del texto */
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Elimina el hueco para que se vea sin costuras */
+}
+.search-bar {  
+        height: 30px;
+        font-size: 20px;
+}
+
+
+.text-overlay {
+    font-size: 40px;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.021);
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+.link-overlay{
+    font-size: 15px;
+    position: absolute; 
+    bottom: 2%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.200);
+    color:#f6c3fc;
+    text-align: left;
+    padding: 5px;
+}
+.dropdown-menu {
+    max-width: 90vw; /* Limita el ancho máximo del menú */
+    overflow-x: auto; /* Permite desplazamiento horizontal si el contenido es más grande que el contenedor */
+    right:0;
+}
+.dropdown-menu .table img {
+    max-width: 50px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+}
+.dropdown-menu .btn-container {
+    text-align: center;
+    padding: 10px 0;
+}
+.informacion{
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    color: rgb(49, 69, 121);
+    font-weight:bold;
+}
+
+.imagen-fondo{
+    background-image: url("./assets/9zteam_logo.png");
+}
+
+.borrar-curso{
+
+    background-color: red;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    line-height: 10px;
+    color: white;
+    font-weight: bold;
+}
+.descripcion {
+    word-wrap: break-word; /* Esta propiedad hace que el texto se divida automáticamente */
+    max-width: 100%; /* Ajusta el máximo ancho para asegurar que no se desborde */
+}
+
+

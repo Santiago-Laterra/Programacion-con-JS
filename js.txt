@@ -1,0 +1,53 @@
+Comandos JS
+
+ .map() y .forEach() se utilizan para iterar sobre los elementos de un array
+
+El método .map() crea un nuevo array con los resultados de llamar a una función proporcionada en cada elemento del array que llama.
+
+Características:
+
+1)Crea un nuevo array: Devuelve un nuevo array con los resultados de aplicar la función a cada elemento.
+2)Inmutable: No modifica el array original
+3)Retorno: La función que se pasa a .map() debe retornar un valor, ya que ese valor se usará para construir el nuevo array.
+
+.forEach()
+
+El método .forEach() ejecuta una función proporcionada una vez por cada elemento del array. A diferencia de .map(), no crea un nuevo array ni devuelve un valor.
+
+1) Sin retorno: No devuelve ningún valor ni crea un nuevo array.
+2) Efectos secundarios: Se usa típicamente para ejecutar efectos secundarios, como modificar elementos, imprimir valores, etc.
+3) Modificación del array original: Puede modificar el array original si la función que se pasa lo hace explícitamente
+
+.map(): Se utiliza para transformar todos los elementos de un array y devuelve un nuevo array con los elementos transformados.
+.forEach(): Se utiliza para ejecutar una función en cada elemento de un array, generalmente para efectos secundarios, y no devuelve un nuevo array.
+
+
+
+Acceder a elementos de HTML.
+
+
+document es todo lo que tenemos  en el html. 
+
+document.alguna etiqueta. te va a mostrar la etiqueta y sus hijo si es que tiene.
+
+getElementsByClassName obtienes la clase.
+
+document.getElementsByClassName("clase");
+
+document.querySelector() en JavaScript se utiliza para seleccionar el primer elemento que coincida con un selector CSS especificado.
+
+EVENTOS
+
+eventos con el mouse
+
+	const nav = document.querySelecor("navegacion"); Selecciona un elemento del DOM (Document Object Model) con la clase o etiqueta navegacion y lo asigna a la constante nav.
+
+		nav.addEventListener("click", ()=>{  Agrega un evento de escucha (event listener) al elemento nav para que cuando se haga clic en él, se ejecute una función.
+
+	})
+
+
+
+
+
+
